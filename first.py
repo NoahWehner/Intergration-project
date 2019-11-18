@@ -2,13 +2,13 @@
 #integration project
 name = input("whats your name?")
 age = input("whats your age?")
-print("welcome", name,"You are", age, "years old")
+print("Welcome", name,"You are", age, "years old")
 #greeting code
-print("welcome to a simple integration project but answer this simple question ")
+print("Welcome to a simple integration project but answer this simple question. ")
 answer = input("what is 2 + 2 = ")
 #simple calculations
 if ( answer == "4"):
-    print("correct!")
+    print("Correct!")
 else:
     print("That's the wrong numberrrrr")
 #standard conditional structure
@@ -18,9 +18,9 @@ myit = iter(mystr)
 print(next(myit))
 print(next(myit))
 print(next(myit))
-mytuple = ("3", "2", "1")
+myTuple = ("3", "2", "1")
 
-for x in mytuple:
+for x in myTuple:
   print(x)
 #iterative structures
 def my_function(fun):
